@@ -1,11 +1,22 @@
 {
-    "728117": {
-        "discord_id": "1240655013873717319",
-        "blacklisted": false
-    },
-    "banned-license-67890": {
-        "discord_id": "987654321098765432",
-        "blacklisted": true,
-        "reason": "License abuse"
-    }
+    "valid_licenses": [
+        {
+            "license": "CL-82911",
+            "discord_id": "123456789012345678", 
+            "blacklisted": false,
+            "reason": ""
+        },
+        {
+            "license": "DEINE-LIZENZ-2",
+            "discord_id": "987654321098765432",
+            "blacklisted": true,
+            "reason": "Violation of rules"
+        },
+        {
+            "license": "DEINE-LIZENZ-3",
+            "discord_id": "112233445566778899",
+            "blacklisted": false,
+            "reason": ""
+        }
+    ]
 }
